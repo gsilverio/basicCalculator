@@ -1,0 +1,45 @@
+.body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+    
+.all-container{
+    margin: 0;
+    padding: 2px;
+    width: 180px;
+    align-content: center;
+    border: 2px solid;
+    background-color: #42587a;
+    text-align: center;
+}
+
+.inputBtn{
+    border-color: transparent;
+    height: 50px;
+    font-size: 20px;
+    width: 95%;
+    outline: none;
+    background-color: #42587a;
+    -moz-appearance: textfield;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+.numbers-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2px;
+    
+}
+#btn,.clear-btn,.result{
+    background-color: #4D6683;
+    border: 0;
+    height: 50px;
+    color: white;
+}
+#btn:hover,.clear-btn:hover,.result:hover{
+    background-color: black;
+}
